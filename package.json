@@ -1,0 +1,16 @@
+{
+  "name": "fedval",
+  "version": "1.0.0",
+  "description": "Validate webpack5 module federation configurations.",
+  "main": "index.js",
+  "repository": "git@github.com:tapatio/fedval.git",
+  "author": "Jeff Szielenski",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "FEDERATED_APP_CONFIG='./federated-app/webpack.config.js' HOST_APP_CONFIG='./host-app/webpack.config.js' node index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
